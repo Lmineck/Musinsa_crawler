@@ -56,6 +56,10 @@ print('crawling time : ', f'{end-start:.1f} sec')
 # pandas 데이터 변환
 data = pd.DataFrame(result)
 data.columns = ['title', 'brand', 'price', 'url', 'img_url']
+specialChars = '_!#$%^&*()[]'
+for specialChar in specialChars:
+    data['title'] = data['title'].str.replace(specialChar, '', regex=True)
+data = data.drop_duplicates(subset='url')
 data.to_csv(_itemName+'(musinsa).csv', encoding='cp949', index=False)
 
 #exit
