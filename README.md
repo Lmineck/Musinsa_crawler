@@ -1,4 +1,6 @@
 # 🔍 Musinsa_crawler 🔍  
+무신사 스토어 웹사이트의 의류들을 크롤링 한 후,  
+크롤링 된 아이템들 중 하나를 선택하고 관련 아이템을 추천받을 수 있는 프로그램입니다
 
 ## 🛠 Tech Stacks 🛠
 <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white"/> <img src="https://img.shields.io/badge/selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white"/> <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
